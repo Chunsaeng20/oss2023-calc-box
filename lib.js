@@ -11,7 +11,7 @@ function prime(num)
     // num must greater than 0
     if(num <= 0) return false;
 
-    // compare 2 ~ root(num) 
+    // compare 2 ~ root(num) with num
     for(let i = 2; i*i <= num; i++)
     {
         if(num % i == 0) return false;
